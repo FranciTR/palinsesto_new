@@ -71,12 +71,12 @@ span.psw {
 </head>
 <body>
 
-<img src="img/Logo.PNG" >
+<img src="img/Logo.PNG" alt="immaginelogo" >
 
 <h2>Login palinsesto</h2>
 
 <h3>inserire i seguenti dati per accedere a contenuti speciali</h3>
-<form action="/Home.jsp">
+<form method="get" action="login">
  
 
   <div class="container">

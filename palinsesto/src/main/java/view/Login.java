@@ -24,6 +24,8 @@ public class Login extends HttpServlet {
 	String password = request.getParameter("password");
 	
 	request.setAttribute("password",password);
+
+	response.sendRedirect("home");
 	
 	String nextjsp = "/jsp/Login.jsp";
 	
@@ -31,7 +33,7 @@ public class Login extends HttpServlet {
 	dispatcher.forward(request,response);
 	
 	
-	
+
 	
 	
 	}

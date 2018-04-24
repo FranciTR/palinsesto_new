@@ -9,14 +9,6 @@
 
 </servlet>
 
-<servlet-mapping>
-
-<servlet-name>Login</servlet-name>
-
-<url-pattern>/login</url-pattern>
-
-</servlet-mapping>
-
 <servlet>
 
 <servlet-name>Notizie</servlet-name>
@@ -25,14 +17,13 @@
 
 </servlet>
 
-<servlet-mapping>
+<servlet>
 
-<servlet-name>Notizie</servlet-name>
+<servlet-name>direttatv</servlet-name>
 
-<url-pattern>/notizie</url-pattern>
+<servlet-class>Palinsesto.direttatv</servlet-class>
 
-</servlet-mapping>
-
+</servlet>
 
 <servlet>
 
@@ -42,15 +33,6 @@
 
 </servlet>
 
-<servlet-mapping>
-
-<servlet-name>Canale</servlet-name>
-
-<url-pattern>/canale</url-pattern>
-
-</servlet-mapping>
-
-
 <servlet>
 
 <servlet-name>Abbonamenti</servlet-name>
@@ -58,14 +40,6 @@
 <servlet-class>Palinsesto.Abbonamenti</servlet-class>
 
 </servlet>
-
-<servlet-mapping>
-
-<servlet-name>Abbonamenti</servlet-name>
-
-<url-pattern>/abbonamenti</url-pattern>
-
-</servlet-mapping>
 
 <servlet>
 
@@ -75,13 +49,7 @@
 
 </servlet>
 
-<servlet-mapping>
 
-<servlet-name>Amministratore</servlet-name>
-
-<url-pattern>/amministratore</url-pattern>
-
-</servlet-mapping>
 
 <servlet>
 
@@ -94,6 +62,14 @@
 <servlet-mapping>
 
 <servlet-name>Emittenti</servlet-name>
+
+<servlet-mapping>
+
+<servlet-name>Login</servlet-name>
+
+<url-pattern>/login</url-pattern>
+
+</servlet-mapping>
 
 <url-pattern>/emittenti</url-pattern>
 
@@ -123,14 +99,6 @@
 
 </servlet>
 
-<servlet-mapping>
-
-<servlet-name>Programma</servlet-name>
-
-<url-pattern>/programma</url-pattern>
-
-</servlet-mapping>
-
 <servlet>
 
 <servlet-name>Ricerca</servlet-name>
@@ -139,14 +107,6 @@
 
 </servlet>
 
-<servlet-mapping>
-
-<servlet-name>Ricerca</servlet-name>
-
-<url-pattern>/ricerca</url-pattern>
-
-</servlet-mapping>
-
 <servlet>
 
 <servlet-name>Registrazione</servlet-name>
@@ -154,14 +114,6 @@
 <servlet-class>Palinsesto.Registrazione</servlet-class>
 
 </servlet>
-
-<servlet-mapping>
-
-<servlet-name>Registrazione</servlet-name>
-
-<url-pattern>/registrazione</url-pattern>
-
-</servlet-mapping>
 
 <servlet>
 
@@ -179,13 +131,7 @@
 
 </servlet-mapping>
 
-<servlet>
 
-<servlet-name>direttatv</servlet-name>
-
-<servlet-class>Palinsesto.direttatv</servlet-class>
-
-</servlet>
 
 <servlet-mapping>
 
@@ -195,4 +141,68 @@
 
 </servlet-mapping>
 
+<servlet-mapping>
+
+<servlet-name>Login</servlet-name>
+
+<url-pattern>/login</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet-mapping>
+
+<servlet-name>Notizie</servlet-name>
+
+<url-pattern>/notizie</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Canale</servlet-name>
+
+<url-pattern>/canale</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Abbonamenti</servlet-name>
+
+<url-pattern>/abbonamenti</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Amministratore</servlet-name>
+
+<url-pattern>/amministratore</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Ricerca</servlet-name>
+
+<url-pattern>/ricerca</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Registrazione</servlet-name>
+
+<url-pattern>/registrazione</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Programma</servlet-name>
+
+<url-pattern>/programma</url-pattern>
+
+</servlet-mapping>
 </web-app>
