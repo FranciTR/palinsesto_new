@@ -85,22 +85,6 @@
 
 <servlet>
 
-<servlet-name>Database</servlet-name>
-
-<servlet-class>Palinsesto.Database</servlet-class>
-
-</servlet>
-
-<servlet-mapping>
-
-<servlet-name>Database</servlet-name>
-
-<url-pattern>/database</url-pattern>
-
-</servlet-mapping>
-
-<servlet>
-
 <servlet-name>Emittenti</servlet-name>
 
 <servlet-class>Palinsesto.Emittenti</servlet-class>
@@ -176,6 +160,38 @@
 <servlet-name>Registrazione</servlet-name>
 
 <url-pattern>/registrazione</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+
+<servlet-name>Home</servlet-name>
+
+<servlet-class>Palinsesto.Home</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>Home</servlet-name>
+
+<url-pattern>/home</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+
+<servlet-name>direttatv</servlet-name>
+
+<servlet-class>Palinsesto.direttatv</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>direttatv</servlet-name>
+
+<url-pattern>/direttatv</url-pattern>
 
 </servlet-mapping>
 
