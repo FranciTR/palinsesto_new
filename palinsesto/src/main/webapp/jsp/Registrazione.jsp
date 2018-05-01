@@ -50,12 +50,6 @@ button:hover {
     background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
 /* Add padding to container elements */
 .container {
     padding: 16px;
@@ -77,7 +71,9 @@ button:hover {
 </style>
 <body>
 
-<form action="/login.jsp" >
+<img src="img/Logo.PNG" alt="immaginelogo">
+
+<form name="login" method="get" action="Login.jsp">
   <div class="container">
     <h1>Registrazione</h1>
     <p>per favore inserisci i seguenti dati per creare un account</p>
@@ -109,10 +105,8 @@ button:hover {
     
     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Registrazione</button>
-    </div>
+ <button name="Login">Login</button>
+   
   </div>
 </form>
 </body>

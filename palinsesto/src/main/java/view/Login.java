@@ -24,8 +24,8 @@ public class Login extends HttpServlet {
 
 		password = request.getParameter("password");
 		
-		if(username != null && password != null) {
-
+		 if(username != null && password != null) {
+       
 			if(username.compareTo("jeff") == 0 && password.compareTo("pippo") == 0){         //se la stringa username e password sono corrette ti reindirizza su programma
 				
 				String nextjsp = "/programma";   
@@ -33,10 +33,10 @@ public class Login extends HttpServlet {
 				dispatcher.forward(request,response);
 
 			}
-
-
-		}
-
+				
+			}
+			
+		
 		String nextjsp = "/jsp/Login.jsp";                                                   //invia i parametri alla pagina login.jsp
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextjsp);
 		dispatcher.forward(request,response);

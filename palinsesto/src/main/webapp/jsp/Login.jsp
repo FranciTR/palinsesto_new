@@ -76,7 +76,7 @@ span.psw {
 </head>
 <body>
 
-	<img src="img/Logo.jpg" alt="immaginelogo">
+	<img src="img/Logo.PNG" alt="immaginelogo">
 
 	<h2>Login palinsesto</h2>
 
@@ -86,19 +86,19 @@ span.psw {
 
 
 		<p>
-			User: <INPUT type=text name="user">
+			User: <INPUT type=text name="user" required>
 		</p>
 
 
 		<p>
-			Password: <INPUT type=text name="password">
+			Password: <INPUT type=password name="password" required>
 		</p>
 
-		<button type=SUBMIT>Login</button>
+		<button name="Login">Login</button>
 
 	</form>
 
-	<form name="login" method="get" action="Registrazione.jsp">
+	<form name="Registrazione" method="get" action="Registrazione.jsp">
 		<button name="Registrazione">Registrati</button>
 	</form>
 

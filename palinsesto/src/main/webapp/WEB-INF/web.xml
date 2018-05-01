@@ -8,7 +8,15 @@
 		<servlet-class>view.Login</servlet-class>
 
 	</servlet>
+	
+<servlet>
 
+		<servlet-name>Checkout</servlet-name>
+
+		<servlet-class>view.Checkout</servlet-class>
+
+	</servlet>
+	
 	<servlet>
 
 		<servlet-name>Notizie</servlet-name>
@@ -38,14 +46,6 @@
 		<servlet-name>Abbonamenti</servlet-name>
 
 		<servlet-class>view.Abbonamenti</servlet-class>
-
-	</servlet>
-
-	<servlet>
-
-		<servlet-name>Amministratore</servlet-name>
-
-		<servlet-class>view.Amministratore</servlet-class>
 
 	</servlet>
 
@@ -164,14 +164,6 @@
 
 	<servlet-mapping>
 
-		<servlet-name>Amministratore</servlet-name>
-
-		<url-pattern>/amministratore</url-pattern>
-
-	</servlet-mapping>
-
-	<servlet-mapping>
-
 		<servlet-name>Ricerca</servlet-name>
 
 		<url-pattern>/ricerca</url-pattern>
@@ -185,7 +177,15 @@
 		<url-pattern>/registrazione</url-pattern>
 
 	</servlet-mapping>
+	
+<servlet-mapping>
 
+		<servlet-name>Checkout</servlet-name>
+
+		<url-pattern>/checkout</url-pattern>
+
+	</servlet-mapping>
+	
 	<servlet-mapping>
 
 		<servlet-name>Programma</servlet-name>
