@@ -14,31 +14,36 @@ public class Login extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-	response.setContentType("text/html");
-	
-	
-	String utente = request.getParameter("utente");
-	
-	request.setAttribute("utente",utente);
-	
-	String password = request.getParameter("password");
-	
-	request.setAttribute("password",password);
+		response.setContentType("text/html");
 
-	response.sendRedirect("home");
-	
-	String nextjsp = "/jsp/Login.jsp";
-	
-	RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextjsp);
-	dispatcher.forward(request,response);
-	
-	
+		String username = null;
 
-	
-	
+		String password = null;
+
+		username = request.getParameter("username");
+
+		password = request.getParameter("password");
+		
+		if(username != null && password != null) {
+
+			if(username.compareTo("jeff") == 0 && password.compareTo("pippo") == 0){         //se la stringa username e password sono corrette ti reindirizza su programma
+				
+				String nextjsp = "/programma";   
+				RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextjsp);  
+				dispatcher.forward(request,response);
+
+			}
+
+
+		}
+
+		String nextjsp = "/jsp/Login.jsp";                                                   //invia i parametri alla pagina login.jsp
+		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextjsp);
+		dispatcher.forward(request,response);
+
 	}
 
-	
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
@@ -46,3 +51,5 @@ public class Login extends HttpServlet {
 	}
 	
 }
+	
+	

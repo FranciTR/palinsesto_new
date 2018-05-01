@@ -16,38 +16,34 @@ public class Registrazione extends HttpServlet {
 	response.setContentType("text/html");
 	
 	
-	String nome = request.getParameter("nome");
+//	String nome = request.getParameter("nome");
 	
-	request.setAttribute("nome",nome);
+//	request.setAttribute("nome",nome);
 	
-	String cognome = request.getParameter("cognome");
+//	String cognome = request.getParameter("cognome");
 	
-	request.setAttribute("cognome",cognome);
+//	request.setAttribute("cognome",cognome);
 	
-	String email = request.getParameter("email");
+//	String email = request.getParameter("email");
 	
-	request.setAttribute("email",email);
+//	request.setAttribute("email",email);
 	
-	int datadinascita =Integer.parseInt( request.getParameter("datadinascita"));
+//	int datadinascita =Integer.parseInt( request.getParameter("datadinascita"));
 	
-	request.setAttribute("dtadinascita",datadinascita);
+//	request.setAttribute("dtadinascita",datadinascita);
 	
-	String password = request.getParameter("password");
+//	String password = request.getParameter("password");
 	
-	request.setAttribute("password",password);
+//	request.setAttribute("password",password);
 	
-	String username = request.getParameter("username");
+//	String username = request.getParameter("username");
 	
-	request.setAttribute("username",username);
+//	request.setAttribute("username",username);
 	
-	String nextjsp = "/Registrazione.jsp";
+	String nextjsp = "/jsp/Registrazione.jsp";
 	
 	RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextjsp);
 	dispatcher.forward(request,response);
-	
-	
-	
-	
 	
 	}
 
