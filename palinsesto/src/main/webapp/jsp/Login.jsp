@@ -23,66 +23,19 @@ input[type=text], input[type=password] {
 	box-sizing: border-box;
 }
 
-button {
-	background-color: #4CAF50;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-}
 
-button:hover {
-	opacity: 0.8;
-}
-
-.cancelbtn {
-	width: auto;
-	padding: 10px 18px;
-	background-color: #f44336;
-}
-
-.imgcontainer {
-	text-align: center;
-	margin: 24px 0 12px 0;
-}
-
-img.avatar {
-	width: 40%;
-	border-radius: 50%;
-}
-
-.container {
-	padding: 16px;
-}
-
-span.psw {
-	float: right;
-	padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-	span.psw {
-		display: block;
-		float: none;
-	}
-	.cancelbtn {
-		width: 100%;
-	}
-}
 </style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body>
 
-	<img src="img/Logo.PNG" alt="immaginelogo">
+	<img src="jsp/img/Logo.PNG" alt="immaginelogo">
 
 	<h2>Login palinsesto</h2>
 
 	<h3>Inserire i seguenti dati per accedere a contenuti speciali</h3>
 
-	<form name="login" method="get" action="Programma.jsp">
+	<form name="login" method="get" action="programma">
 
 
 		<p>
@@ -94,13 +47,13 @@ span.psw {
 			Password: <INPUT type=password name="password" required>
 		</p>
 
-		<button name="Login">Login</button>
+	<button type="sumbit" class="btn btn-success">Login</button>
 
 	</form>
 
-	<form name="Registrazione" method="get" action="Registrazione.jsp">
-		<button name="Registrazione">Registrati</button>
-	</form>
+ 
+	<a class="btn btn-success"  href="registrazione" role="button">Registrazione</a>
+ 
 
 	<script>
 		function passwordcriptata() {
@@ -114,7 +67,9 @@ span.psw {
 	</script>
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </html>
 
 

@@ -65,6 +65,15 @@
         width: 100%;
     }
 }
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
 </style>
 </head>
 <body>
@@ -94,7 +103,9 @@
     <li>Film e serie TV senza limiti</li>
     <li>FULL HD disponibile</li> 
     <li>Disdici quando vuoi</li>
+   <form name="login" method="get" action="login.jsp">
     <li class="grey"><a href="#" class="button">Accedi</a></li>
+    </form>
   </ul>
 </div>
 
@@ -112,6 +123,10 @@
     <li class="grey"><a href="#" class="button">Accedi</a></li>
   </ul>
 </div>
+
+<form name="Checkout" method="get" action="Checkout.jsp">
+		<button name="Home">vai all'acquisto</button>
+	</form>
 
 </body>
 </html>

@@ -20,7 +20,7 @@ public class Programma extends HttpServlet {
 		response.setContentType("text/html");
 
 
-		String nextjsp = "/jsp/programma.jsp";
+		String nextjsp = "/jsp/Programma.jsp";
 
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextjsp);
 		dispatcher.forward(request,response);
