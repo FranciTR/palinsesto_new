@@ -111,6 +111,7 @@ span.price {
 }
 </style>
 </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <body>
 
 <h2>Checkout  Spedizione</h2>
@@ -125,18 +126,18 @@ span.price {
           <div class="col-50">
             <h3>Indirizzo di Spedizione/Fatturazione</h3>
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="John M. Doe" required>
+            <input type="text" id="fname" name="firstname" placeholder="Nome" required>
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="john@example.com" required>
+            <input type="text" id="email" name="email" placeholder="john@gmail.com" required>
             <label for="adr"><i class="fa fa-address-card-o"></i>Indirizzo di domicilio</label>
-            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
-            <label for="city"><i class="fa fa-institution"></i> City</label>
-            <input type="text" id="city" name="city" placeholder="New York" required>
+            <input type="text" id="adr" name="address" placeholder="via savona" required>
+            <label for="city"><i class="fa fa-institution"></i> Città</label>
+            <input type="text" id="city" name="city" placeholder="milano" required>
 
             <div class="row">
               <div class="col-50">
                 <label for="state">Provincia</label>
-                <input type="text" id="state" name="state" placeholder="NY" required>
+                <input type="text" id="state" name="state" placeholder="Provincia" required>
               </div>
               <div class="col-50">
                 <label for="zip">CAP</label>
@@ -155,11 +156,11 @@ span.price {
               <i class="fa fa-cc-discover" style="color:orange;"></i>
             </div>
             <label for="cname">Proprietario carta</label>
-            <input type="text" id="cname" name="cardname" placeholder="John More Doe" required>
+            <input type="text" id="cname" name="cardname" placeholder="Nome" required>
             <label for="ccnum">Numero carta di credito</label>
             <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
             <label for="expmonth">scadenza mese</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Settembre" required>
             <div class="row">
               <div class="col-50">
                 <label for="expyear">scadenza anno</label>
@@ -192,6 +193,8 @@ span.price {
     </div>
   </div>
 </div>
-
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </html>
