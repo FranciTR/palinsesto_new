@@ -4,15 +4,6 @@ import model.Registrazionestore;
 
 public class Registrazionionecontrollo {
 
-private String nome;
-private String cognome;
-private String email;
-private int età;
-private String nazionalità;
-private String luogodinascità;
-private String password;
-private String username;
-
 public static void controllonome(String nome){
 	
 	

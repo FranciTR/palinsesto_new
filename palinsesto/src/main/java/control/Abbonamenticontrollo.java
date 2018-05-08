@@ -5,7 +5,7 @@ import model.Abbonamentistore;
 public class Abbonamenticontrollo {
 
 	
-public void Controlloabbonamenti(){
+public void Controlloabbonamenti(String prezzi){
 	
 }
 

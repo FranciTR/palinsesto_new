@@ -4,12 +4,18 @@ import model.Notiziestore;
 
 public class Notiziecontrollo {
 	
-	private String filmnuovi;
-	private String serietvnuovi;
-	private String programminuovi;
-	private String descrizionefilm;
-	private String descrizioneprogrammi;
-	private String descrizioneserietv;
+public void controllofilm(String filmnuovi){
+
 	
+}
+
+public void controlloserietv(String serietvnuovi){
+	
+}
+
+public void controloprogrammitv(String programminuovi){
+
+}
+
 
 }

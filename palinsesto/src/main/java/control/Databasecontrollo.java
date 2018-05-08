@@ -5,20 +5,20 @@ import model.Database;
 public class Databasecontrollo {
 	
 
-	public void controllopersonaggi() {
+	public void controllopersonaggi(String datipersonali) {
 
 }
 
-public void controlloattori() {
+public void controlloattori(String attori) {
 	
 }
 
-public void controlloprogrammi() {
+public void controlloprogrammi(String programmi) {
 	
 	
 }
 
-public void controllocanali() {
+public void controllocanali(String canali){
 	
 }
 

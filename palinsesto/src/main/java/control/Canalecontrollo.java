@@ -3,7 +3,7 @@ import model.Canalestore;
 
 public class Canalecontrollo {
 	
-public void elencocanali() {
+public void elencocanali(String canali) {
 	
 	
 

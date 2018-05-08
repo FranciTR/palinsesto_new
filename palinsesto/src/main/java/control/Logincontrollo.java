@@ -3,17 +3,13 @@ import java.io.IOException;
 import model.Loginstore;
 public class Logincontrollo {
 
-private String password;
-private String utente;
-private String recuperopassword;
 
+public void controlloutente(String utente){
 
+}
 
-
-
-
-
-
-
+public void controllopassword(String password){
+	
+}
 
 }

@@ -4,7 +4,7 @@ import model.Direttatvstore;
 
 public class Direttatvcontrollo {
 
-	public void controllocanali(){
+	public void controllocanali(String canali){
 		
 	}
 }

@@ -6,8 +6,6 @@ public class Homestore {
 	private String canali;
 	private int data;
 	private int ora;
-	private String programmazionesettimanale;
-	private String programmazionegiornaliera;
 	private String elencocanali;
 	private String ricerca;
     private String rai;
@@ -35,18 +33,6 @@ public class Homestore {
 	}
 	public void setOra(int ora) {
 		this.ora = ora;
-	}
-	public String getProgrammazionesettimanale() {
-		return programmazionesettimanale;
-	}
-	public void setProgrammazionesettimanale(String programmazionesettimanale) {
-		this.programmazionesettimanale = programmazionesettimanale;
-	}
-	public String getProgrammazionegiornaliera() {
-		return programmazionegiornaliera;
-	}
-	public void setProgrammazionegiornaliera(String programmazionegiornaliera) {
-		this.programmazionegiornaliera = programmazionegiornaliera;
 	}
 	public String getElencocanali() {
 		return elencocanali;
