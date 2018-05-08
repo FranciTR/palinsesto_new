@@ -64,8 +64,5 @@ tr:nth-child(even) {
     <td>Italy</td>
   </tr>
 </table>
-<button type=”reset”>
-   cancella
- </button>
 </body>
 </html>
