@@ -5,7 +5,8 @@ import model.Checkoutstore;
 public class Checkoutcontrollo {
 
 	
-	public void controlloprezzo() {
+	public void controlloprezzo(String prezzo) {
 		
+
 	}
 }

@@ -90,10 +90,8 @@ button {
     <li>Film e serie TV senza limiti</li>
     <li>HD disponibile</li>
     <li>Disdici quando vuoi</li>
- <a class="btn btn-success"  href="Login" role="button">Loggati</a>
-  </ul>
+  <a class="btn btn-success"  href="http://localhost:8080/palinsesto/checkout" role="button">checkout</a> </ul>
 </div>
-
 <div class="columns">
   <ul class="price">
     <li class="header" style="background-color:#4CAF50">Ondemand</li>
@@ -104,9 +102,7 @@ button {
     <li>Film e serie TV senza limiti</li>
     <li>FULL HD disponibile</li> 
     <li>Disdici quando vuoi</li>
-   <form name="login" method="get" action="login.jsp">
-     <a class="btn btn-success"  href="Login" role="button">Loggati</a>
-    </form>
+  <a class="btn btn-success"  href="http://localhost:8080/palinsesto/checkout" role="button">checkout</a>
   </ul>
 </div>
 
@@ -121,12 +117,12 @@ button {
     <li>Alta definizione (HD) e 4K HDR</li>
     <li>Contenuti on demand</li>
     <li>Disdici quando vuoi</li>
- <a class="btn btn-success"  href="Login" role="button">Loggati</a>
+ <a class="btn btn-success"  href="http://localhost:8080/palinsesto/checkout" role="button">checkout</a>
   </ul>
 </div>
 
-<form name="Checkout" method="get" action="Checkout.jsp">
-		<button name="Home">vai all'acquisto</button>
+<form name="home" method="get" action="home">
+		<button name="Home">torna nella home</button>
 	</form>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

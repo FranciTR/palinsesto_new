@@ -5,7 +5,7 @@ import model.Database;
 public class Databasecontrollo {
 	
 
-	public void controllopersonaggi(String datipersonali) {
+public void controllopersonaggi(String datipersonali) {
 
 }
 

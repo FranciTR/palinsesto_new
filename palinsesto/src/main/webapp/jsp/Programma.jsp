@@ -98,7 +98,7 @@ function myFunction(x) {
 
 
 
-<form name="Home" method="get" action="home">
+<form name="home" method="get" action="home">
 <button type="button" class="btn btn-success">Home</button>
 	</form>
 	
