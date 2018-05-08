@@ -1,5 +1,7 @@
 package control;
 
+import model.Registrazionestore;
+
 public class Registrazionionecontrollo {
 
 private String nome;

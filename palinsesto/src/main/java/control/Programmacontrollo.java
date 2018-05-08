@@ -1,5 +1,7 @@
 package control;
 
+import model.Programmastore;
+
 public class Programmacontrollo {
 	
 	private String programma;

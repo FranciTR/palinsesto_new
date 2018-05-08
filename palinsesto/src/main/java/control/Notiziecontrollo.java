@@ -1,5 +1,7 @@
 package control;
 
+import model.Notiziestore;
+
 public class Notiziecontrollo {
 	
 	private String filmnuovi;

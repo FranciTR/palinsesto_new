@@ -1,10 +1,25 @@
 package control;
 
+import model.Database;
+
 public class Databasecontrollo {
 	
-	private String datipersonali;
-	private String attori;
-	private String programmi;
-	private String canali;
+
+	public void controllopersonaggi() {
+
+}
+
+public void controlloattori() {
+	
+}
+
+public void controlloprogrammi() {
+	
+	
+}
+
+public void controllocanali() {
+	
+}
 
 }

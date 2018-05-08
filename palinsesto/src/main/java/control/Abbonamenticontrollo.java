@@ -1,9 +1,12 @@
 package control;
 
+import model.Abbonamentistore;
+
 public class Abbonamenticontrollo {
 
-	private String abbonamentocanale;
-	private String ondemand;
-	private String abbonamentopremium;
 	
+public void Controlloabbonamenti(){
+	
+}
+
 }

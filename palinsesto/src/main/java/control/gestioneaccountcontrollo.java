@@ -1,10 +1,9 @@
 package control;
 
+import model.Gestioneaccountstore;
+
 public class gestioneaccountcontrollo {
-	private String datipersonali;
-	private String gestioneaccount;
-	private String assistenza;
-	private String gestioneabbonamenti;
+
 	
 	
 
