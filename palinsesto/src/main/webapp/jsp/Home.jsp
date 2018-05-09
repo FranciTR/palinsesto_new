@@ -30,10 +30,10 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="http://localhost:8080/palinsesto/registrazione">registrazione <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="http://localhost:8080/palinsesto/registrazione">Registrazione</a>
           </li>
            <li class="nav-item active">
-            <a class="nav-link" href="http://localhost:8080/palinsesto/canale">canale <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="http://localhost:8080/palinsesto/canale">Canale</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="http://localhost:8080/palinsesto/login">Login</a>
@@ -43,6 +43,9 @@
           </li>
        <li class="nav-item">
             <a class="nav-link disabled" href="http://localhost:8080/palinsesto/programma">Programma</a>
+       </li>
+       <li class="nav-item">
+            <a class="nav-link disabled" href="http://localhost:8080/palinsesto/emittenti">Emittenti</a>
        </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
