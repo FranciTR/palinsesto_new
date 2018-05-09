@@ -6,6 +6,7 @@ public class Database {
 	private String attori;
 	private String programmi;
 	private String canali;
+	
 	public String getDatipersonali() {
 		return datipersonali;
 	}

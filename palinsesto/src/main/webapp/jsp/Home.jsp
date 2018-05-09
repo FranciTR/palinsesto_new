@@ -32,6 +32,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="http://localhost:8080/palinsesto/registrazione">registrazione <span class="sr-only">(current)</span></a>
           </li>
+           <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:8080/palinsesto/canale">canale <span class="sr-only">(current)</span></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="http://localhost:8080/palinsesto/login">Login</a>
           </li>

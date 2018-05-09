@@ -96,11 +96,7 @@ function myFunction(x) {
   </div>
 </div>
 
-
-
-<form name="home" method="get" action="home">
-<button type="button" class="btn btn-success">Home</button>
-	</form>
+	<a class="btn btn-primary btn-lg"  href="home" role="button">home</a>
 	
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
