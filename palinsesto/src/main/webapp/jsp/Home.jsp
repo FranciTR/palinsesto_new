@@ -19,7 +19,7 @@
     <link href="starter-template.css" rel="stylesheet">
   </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <body background="jsp/img/noragami2.jpg">
+  <body background="jsp/img/marvel.jpg">
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
    <img src="jsp/img/Logo.PNG" alt="immaginelogo">
